@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 button {
@@ -78,7 +79,7 @@ a {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 0 70px;
+    padding: 50px 70px;
 
     background-color: pink;
 }
@@ -107,4 +108,5 @@ a {
     justify-content: center; 
     background-color: brown;
     width: 100vw;
+    padding: 10px;
 }
